@@ -1,0 +1,175 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');
+
+  .contenedor_Mis_Viajes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 10px;
+    text-decoration: none;
+    
+  }
+  
+  .navBar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style:none;
+    text-decoration: none;
+  }
+  
+  .logo {
+    width: 300px;
+    display: flex;
+    padding: 25px;
+  }
+  
+  .navBar ul li {
+    padding: 13px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style:none;    
+  }
+
+  .navBar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Nunito';
+    font-weight: bold;
+    
+    ;
+    
+    }
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 20px;
+
+  }
+   
+  
+  
+  footer ul  {
+    padding: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style:none;
+    text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-family: 'Nunito';
+              
+  
+  }
+
+    footer ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-family: 'Nunito';
+              
+    }
+  
+  footer span  {
+    padding: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .contenedorImagen {
+    width: 240px;
+    height: 240px;
+    display: flex;
+  }
+  
+  .contenedorImagen img {
+    object-fit: cover;
+    width: 100%;
+    border-radius-top-rigth: 10px;
+    margin-bottom: 10px;
+  
+  }
+  
+  .contenedorCards {
+    display: flex;
+  }
+  .CardViaje {
+    margin: 10px;
+    background-color: rgb(192, 190, 190);
+    border-radius: 10px;
+    list-style:none;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .breedTitleCard {
+    color: black;
+    font-family: 'Nunito';
+    
+    font-weight: bold;
+  }
+  
+  body {
+    margin: 0px;
+    font-family: 'Nunito';
+          
+  }
+  
+  
+  html {
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+       tab-size: 4;
+  }
+  
+  html {
+    line-height: 1.15;
+    /* 1 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+  }
+
+  .contenedorArriba {
+    background-image: url("./fondo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 50px;
+  }
+
+  .contenedor_titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .tituloPrincipalContenido {
+    font-weight: 300;
+    font-size: 50px;
+  }
